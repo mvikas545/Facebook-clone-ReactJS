@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 515px;
+  background-color: #f0f2f5;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 18px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title p {
+  font-size: 18px;
+  line-height: 22px;
+}
+.inputBox {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.btn {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0 18px 0;
+}
+
+.link {
+  margin: 0 8px;
+}
+.link a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.34;
+}
+.link a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

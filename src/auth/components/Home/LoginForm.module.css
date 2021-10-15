@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  flex: 1;
+  padding: 15px 16px;
+  width: 364px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 32;
+}
+
+.loginForm input {
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  line-height: 16px;
+  height: 22px;
+  font-size: 17px;
+  color: #dddfe2;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.loginForm input:focus {
+  outline: none !important;
+  border: 1px solid #1877f2;
+}
+
+.loginForm button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.loginForm button:hover {
+  cursor: pointer;
+  background-color: #166fe5;
+}
+.forgotPassword {
+  margin-top: 16px;
+}
+.forgotPassword a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.34;
+}
+.forgotPassword a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hrLine {
+  border-top: 1px dashed #dddfe2;
+  width: 100%;
+  margin: 20px 16px;
+}
+
+.createNewAccount button {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.createNewAccount button:hover {
+  background-color: #36a420;
+  cursor: pointer;
+}
+
+.createPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.createPage a {
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.createPage p {
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}

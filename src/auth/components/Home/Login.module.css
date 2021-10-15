@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  overflow: hidden;
+  height: 709px;
+  width: 100%;
+}
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0 10%;
+}
+
+.heading {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  padding-left: 35px;
+  flex-wrap: wrap;
+  position: relative;
+  top: -25px;
+}
+
+.logoContainer {
+  padding-right: 50px;
+}
+
+.formContainer {
+  padding-left: 50px;
+}
+.footer {
+  /* margin: 20px 0; */
+}

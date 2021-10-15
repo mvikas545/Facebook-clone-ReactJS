@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+.hrLine {
+  border-bottom: 1px solid #ccd0d5;
+  margin: 0 13%;
+}
+.facebook {
+  margin: 0 10%;
+}
+.facebook p {
+  font-size: 12px;
+  margin-left: 40px;
+  color: #737373;
+}

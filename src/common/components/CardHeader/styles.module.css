@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.content {
+  /* color: gray; */
+  margin: 18px;
+}
+.content h2,
+h3 {
+  /* color: gray; */
+  margin: 0;
+}
+.bottomBorder {
+  border-bottom: 1px solid gray;
+}
